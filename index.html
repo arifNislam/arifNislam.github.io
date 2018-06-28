@@ -10,34 +10,81 @@
   <!--Import Google Icon Font-->
   <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
   <!-- Compiled and minified CSS -->
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/css/materialize.min.css">
-
-  <script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
-  <!-- Compiled and minified JavaScript -->
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/js/materialize.min.js"></script>
-  <script src="js/site.js"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-rc.2/css/materialize.min.css">
+  <link rel="stylesheet" href="css/site.css">
 </head>
 
 <body>
-<div class="navbar-fixed">
-  <nav>
-    <div class="nav-wrapper">
-      <a href="#!" class="brand-logo" style="padding-left: 16px; padding-right: 16px">Arif Islam</a>
-      <a href="#" data-activates="mobile-nav" class="button-collapse"><i class="material-icons">menu</i></a>
-      <ul class="right hide-on-med-and-down">
-        <li><a href="#">Android</a></li>
-        <li><a href="#">Java</a></li>
-        <li><a href="#">PHP</a></li>
-        <li><a href="#">Angular</a></li>
-      </ul>
+<header>
+  <nav class="navbar">
+    <ul class="left">
+      <li><a href="#" data-target="nav-mobile" class="sidenav-trigger valign-wrapper"><i class="material-icons">menu</i></a></li>
+    </ul>
+    <div class="brand-logo center" style="padding-top: 16px">
+      <img src="images/avatar.jpg" alt="" class="circle responsive-img z-depth-2">
     </div>
   </nav>
-</div>
-<ul class="side-nav" id="mobile-nav">
-  <li><a href="#">Android</a></li>
-  <li><a href="#">Java</a></li>
-  <li><a href="#">PHP</a></li>
-  <li><a href="#">Angular</a></li>
-</ul>
+
+  <div class="nav-drawer">
+    <ul id="nav-mobile" class="sidenav sidenav-fixed">
+      <li class="brand-logo center hide-on-small-only"><img src="images/avatar.jpg" alt="" class="circle responsive-img"></li>
+      <li class="center-align"><h4>Md. Ariful Islam</h4></li>
+      <li class="designation center-align"><h6>Software Engineer</h6></li>
+      <li class="bold"><a href="#about" class="waves-effect waves-teal">About</a></li>
+      <li class="bold"><a href="#experience" class="waves-effect waves-teal">Experience</a></li>
+      <li class="bold"><a href="#projects" class="waves-effect waves-teal">Projects</a></li>
+      <li class="bold"><a href="#skills" class="waves-effect waves-teal">Skills</a></li>
+      <li class="bold"><a href="#pro-cert" class="waves-effect waves-teal">Professional Certificate</a></li>
+      <li class="bold"><a href="#edu" class="waves-effect waves-teal">Educations</a></li>
+      <li class="bold"><a href="#contact" class="waves-effect waves-teal">Contact</a></li>
+      <li class="bold"><a href="#resume" class="waves-effect waves-teal">Resume</a></li>
+    </ul>
+  </div>
+</header>
+<main>
+  <section id="intro" class="section valign-wrapper scrollspy">
+    <div class="container center">
+      <h3 class="white-text">Mobile App & MEAN Stack Developer</h3>
+      <p class="grey-text lighten-4" style="margin-bottom: 32px;">
+        Based out of Dhaka, Bangladesh. Specializing in android app and node.js development. If you are a business seeking
+        a web or mobile presence or an employer looking to hire, you can get in touch with me <a href="#contact">here</a>.
+      </p>
+      <button id="btn-freelance" class="btn waves-effect waves-light">I need an app
+        <i class="material-icons right">chevron_right</i>
+      </button>
+
+      <button id="btn-hire" class="btn waves-effect waves-light lime black-text">I'm looking to hire
+        <i class="material-icons right">chevron_right</i>
+      </button>
+    </div>
+  </section>
+  <section id="about" class="section scrollspy">
+    <h3 class="page-title white-text teal">About Me</h3>
+    <div class="container flow-text">
+      <blockquote>
+        <h2>Mission-driven full stack developer with a passion for android app development, collaboration, and teaching.</h2>
+      </blockquote>
+      <p>
+        I’ve always sought out opportunities and challenges that are meaningful to me. Although my development path has taken many twists and
+        turns
+        — from web designer, to web developer, to mobile app developer — I've never stopped engaging my passion to help others and solve problems.
+      </p>
+      <p>
+        As a developer, I enjoy using my obsessive attention to detail, my unequivocal love for making things, and my mission-driven work
+        ethic to literally change the world. That's why I’m excited to make a big impact at a high growth company.
+      </p>
+      <p>
+        <strong>Current Focus</strong>:&nbsp;&nbsp;
+        <a href="https://developer.android.com/">Android apps</a>
+        <span class="valign-center" style="font-size: 0.8em; margin-left: 8px; margin-right: 8px">⚫</span>
+        <a href="https://nodejs.org/en/">Node.js</a>
+      </p>
+    </div>
+  </section>
+</main>
+<script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-rc.2/js/materialize.min.js"></script>
+<script src="js/site.js"></script>
+
 </body>
 </html>

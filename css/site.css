@@ -1,0 +1,76 @@
+/*.navbar {
+  margin-bottom: 80px;
+}*/
+nav {
+  height: 88px;
+}
+
+nav .sidenav-trigger {
+  height: 88px;
+}
+
+#intro {
+  height: 100vh;
+  background: url('../images/cover.jpg') no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+#about {
+  padding-top: 0 !important;
+}
+
+.page-title {
+  padding: 16px;
+  margin-top: 0;
+}
+
+.brand-logo {
+  padding-top: 16px;
+}
+
+.designation {
+  margin-bottom: 16px;
+}
+
+blockquote {
+  border-left: 5px solid #795548;
+  color: #795548;
+  font-size: 125%;
+  font-weight: 400;
+  margin: 20px 0;
+  padding-left: 1.5rem;
+}
+
+blockquote * {
+  font-size: inherit;
+  line-height: inherit;
+}
+
+#btn-freelance {
+  margin: 0 0 8px 0;
+}
+
+#btn-hire {
+  margin: 8px 0 0 0;
+}
+
+@media (min-width: 601px) {
+  main {
+    padding-left: 300px;
+  }
+
+  .navbar {
+    display: none;
+  }
+
+  #btn-freelance {
+    margin: 0 16px 0 0;
+  }
+
+  #btn-hire {
+    margin: 0 0 0 16px;
+  }
+}
